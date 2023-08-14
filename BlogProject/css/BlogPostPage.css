@@ -1,0 +1,122 @@
+
+
+
+@import url(/css/autherInfo.css);
+@import url(/css/books.css);
+
+
+
+
+body
+{
+    background-color: #353535;
+}
+
+.grid-container2
+{
+    display: grid;
+    grid-template-rows: 80px 200px 750px 1fr 200px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "hd hd hd hd"
+    "qdb qdb qdb qdb"
+    "ai ai ai ai"
+    "books books books books"
+    "si si si si"
+    "footer footer footer footer"
+    ;
+}
+
+.header-two
+{
+   grid-area: hd;
+   background-color: #EDEDE9;
+}
+
+.nave-position2
+{
+   
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+        
+ }
+ 
+ li 
+ {
+     float:left;
+     list-style-type: none;
+ }
+ 
+ li a
+ {
+    
+     display: flex;
+     justify-content: center;
+     color: black;
+     text-align: center;
+     font-family: 'Roboto Slab', serif;
+     font-size: 20px;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ li a:hover:not(.active)
+ {
+    background-color: #e4e4e4;
+ }
+ 
+ .active
+ {
+    background-color: #977046;
+ }
+
+.qoute-DanBrawon
+{
+    grid-area: qdb;
+    background-color: #F5EBE0;
+    text-align: center;
+    padding: 70px;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.auther-info
+{
+    grid-area: ai;
+    background-color: #D6CCC2;
+    
+}
+.books
+{
+    grid-area: books;
+    background-color: #E3D5CA;
+    padding: 20px;
+}
+.social-info
+{
+     grid-area: si;
+     background-color: #F5EBE0;
+
+}
+.social-info h2
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 35px;
+}
+.social-info-list 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer
+{
+     grid-area: footer;
+     background-color: #EDEDE9;
+     text-align: center;
+}

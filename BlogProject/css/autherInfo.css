@@ -1,0 +1,63 @@
+/*creating flex box*/
+.auther-info-flex
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.auther-info-image 
+{
+    position: relative;
+}
+
+.info-image
+{
+    border-radius: 100%;
+    height: 300px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.auther-name
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.auther-info-image:hover .info-image 
+{
+    opacity: 0.4;
+}
+.auther-info-image:hover .auther-name
+{
+    opacity: 2;
+}
+
+.name
+{
+    background-color: #D6CCC2;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+.information
+{
+    padding: 30px;
+    margin-top: 0;
+}
+#pOne
+{
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}

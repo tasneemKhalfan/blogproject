@@ -1,0 +1,45 @@
+.flex-books
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card-book
+{
+    border: 2px solid #fff;
+   
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0,0, 0.2);
+}
+.card-book:hover 
+{ box-shadow: 0 5px 19px 0 rgba(0, 0,0, 0.2);}
+
+.imgbookOne
+{
+    width: 160px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    
+}
+figcaption
+{
+    text-align: center;
+}
+.orderButton
+{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#order
+{
+    border: 1px;
+    border-radius: 30px;
+    border-color: #977046;
+    cursor: pointer;
+    padding: 10px 15px;
+}

@@ -1,0 +1,14 @@
+/*Header Style*/
+.header
+{
+    grid-area: header;
+
+    background-image: url(/images/PHOTO-2023-06-09-19-51-06.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    
+    height: 300px;
+    
+   
+
+}

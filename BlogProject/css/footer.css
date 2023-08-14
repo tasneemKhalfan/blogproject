@@ -1,0 +1,10 @@
+.box9
+{
+    grid-area: footer;
+    background-color: #D5BDAF;
+}
+
+.box9 p
+{
+    text-align: center;
+}
